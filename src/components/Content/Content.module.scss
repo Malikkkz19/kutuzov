@@ -5,11 +5,330 @@
 }
 
 .body {
-  height: 100%;
+  height: 200vh;
   width: 100%;
-  background-color: black;
+
   .header {
+    height: 150px;
+    width: 100%;
+    display: flex;
+      .leftGeorg {
+        width: 600px;
+        height: 200px;
+        position: absolute;
+        top: 3%;
+        left: 10.3%;
+      }
+      .centerGeorg {
+       width: 220px;
+        height: 220px;
+        position: absolute;
+        left: 43.4%;
+        top: 0%;
+        background: transparent;
+        z-index: 2;
+      }
+      .rightGeorg {
+         position: absolute;
+        top: 3%;
+        right: 10.3%;
+        width: 600px;
+        height: 200px;
+      }
+  }
+  .content {
+    width: 100%;
+    height: 100%;
+    .imgKutuzov {
+      width: 450px;
+      height: 600px;
+      position: absolute;
+      top: 25%;
+      left: 36.8%;
+    }
+    .leftDesc {
+      width: 250px;
+      height: 600px;
+      background-color: #d5b273;
+      position: absolute;
+      border: 2px solid #ffc423;
+      top: 27%;
+      left: 13%;
+      .text1 {
+        width: 100%;
+        height: 100%;
+        background: transparent;
+        padding: 5px;
+      }
+    }
+    .rightDesc {
+      width: 250px;
+      height: 600px;
+      background-color: #d5b273;
+      position: absolute;
+      border: 2px solid #ffc423;
+      top: 27%;
+      right: 13%;
+      .text21 {
+        margin-left: 20px;
+        margin-top: 10px;
+        width: 80%;
+        height: 10%;
+        background: transparent;
+        padding: 5px;
+      }
+      .text22 {
+        margin-top: -10px;
+        width: 90%;
+        margin-left: 15px;
+        height: 80%;
+        background: transparent;
+        padding: 5px;
+      }
+      .text23 {
+        width: 60%;
+        margin-left: 45px;
+        height: 10%;
+        background: transparent;
+        padding: 5px;
+        margin-top: -15px;
+      }
+    }
+    .horseRider {
+      width: 250px;
+      height: 350px;
+      position: absolute;
+      left: 13%;
+      top: 95%;
+      border: 2px solid #ffc423;
+
+    }
+    .imgKutuz {
+      width: 250px;
+      height: 350px;
+      position: absolute;
+      right: 13%;
+      top: 95%;
+      border: 2px solid #ffc423;
+
+    }
+    .blockShield {
+      width: 650px;
+      height: 680px;
+      position: absolute;
+      top: 93%;
+      left: 30.5%;
+
+      .imgShield {
+        width: 67%;
+        height: 75%;
+        position: absolute;
+        left: 16%;
+        top: 5%;
+      }
+      .imgEagle {
+        width: 33%;
+        height: 20%;
+        background: transparent;
+        position: absolute;
+        left: 33%;
+        top: 0%;
+      }
+      .descTitle {
+        width: 32%;
+        height: 4%;
+        position: absolute;
+        top: 21%;
+        left: 34%;
+        background: transparent;
+      }
+      .descEssential {
+        width: 40%;
+        height: 35%;
+        position: absolute;
+        top: 25%;
+        left: 30%;
+        background: transparent;
+      }
+      .imgOrden1{
+        width: 65px;
+        height: 100px;
+        position: absolute;
+        top: 8%;
+        left: 3%;
+        background: transparent;
+      }
+      .imgOrden2{
+        width: 90px;
+        height: 100px;
+        position: absolute;
+        top: 30%;
+        left: 2%;
+        background: transparent;
+      }
+      .imgOrden3{
+        width: 75px;
+        height: 100px;
+        position: absolute;
+        top: 50%;
+        left: 8%;
+        background: transparent;
+      }
+      .imgOrden4{
+        width: 75px;
+        height: 100px;
+        position: absolute;
+        top: 65%;
+        left: 19%;
+        background: transparent;
+      }
+      .imgOrden5{
+        width: 60px;
+        height: 90px;
+        position: absolute;
+        top: 78%;
+        left: 36%;
+        background: transparent;
+      }
+      .imgOrden6{
+        width: 80px;
+        height: 100px;
+        position: absolute;
+        top: 77%;
+        right: 34%;
+        background: transparent;
+      }
+      .imgOrden7{
+        width: 70px;
+        height: 110px;
+        position: absolute;
+        top: 64%;
+        right: 20%;
+        background: transparent;
+      }
+
+      .imgOrden8{
+        width: 85px;
+        height: 100px;
+        position: absolute;
+        top: 50%;
+        right: 8%;
+        background: transparent;
+      }
+
+      .imgOrden9{
+        width: 85px;
+        height: 100px;
+        position: absolute;
+        top: 29%;
+        right: 2.5%;
+        background: transparent;
+      }
+
+      .imgOrden10{
+        width: 65px;
+        height: 100px;
+        position: absolute;
+        top: 8%;
+        right: 3%;
+        background: transparent;
+      }
+      .descShield1 {
+        width: 200px;
+        height: 100px;
+        position: absolute;
+        bottom: 1%;
+        left: 3%;
+        background-color: #d5b273;
+        border: 2px solid #ffc423;
+        .imgDescShield1 {
+          width: 90%;
+          margin-left: 10px;
+          margin-top: 10px;
+         background: transparent;
+          padding: 5px;
+        }
+      }
+      .descShield2 {
+        width: 200px;
+        height: 30px;
+        position: absolute;
+        border-radius: 10px;
+        bottom: 1%;
+        left: 35%;
+        background-color: #d5b273;
+        border: 1px solid #ffc423;
+        .imgDescShield2 {
+          width: 90%;
+          margin-left: 10px;
+          margin-top: 3px;
+         background: transparent;
+          padding: 5px;
+        }
+      }
+
+      .descShield3 {
+        width: 200px;
+        height: 100px;
+        position: absolute;
+        bottom: 1%;
+        right: 2%;
+        background-color: #d5b273;
+        border: 2px solid #ffc423;
+        .imgDescShield3 {
+          width: 90%;
+          margin-left: 10px;
+          margin-top: 10px;
+          background: transparent;
+          padding: 5px;
+        }
+      }
+
+    }
+    .descMid1 {
+      width: 270px;
+      height: 130px;
+      position: absolute;
+      top: 135%;
+      left: 13%;
+      background-color: #d5b273;
+      border: 2px solid #ffc423;
+
+      .imgDescMid1 {
+        width: 90%;
+        height: 80%;
+        margin-left: 10px;
+        margin-top: 10px;
+        background: transparent;
+      }
+    }
+    .descMid2 {
+      width: 270px;
+      height: 110px;
+      position: absolute;
+      top: 135%;
+      right: 13%;
+      background-color: #d5b273;
+      border: 2px solid #ffc423;
+
+      .imgDescMid2 {
+        width: 90%;
+        height: 55%;
+        margin-left: 10px;
+        margin-top: 25px;
+        background: transparent;
+      }
+    }
+    .imgHorse2 {
+      width: 270px;
+      height: 200px;
+      position: absolute;
+      top: 151%;
+      left: 13%;
+      border: 1px solid #ffc423;
+    }
 
   }
+
 
 }
