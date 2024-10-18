@@ -11,12 +11,12 @@ const Content = () => {
             <div className={styles.content}>
                 <img className={styles.imgKutuzov} src="/public/Kutuzov.png" alt=""/>
                 <div className={styles.leftDesc}>
-                    <img className={styles.text1} src="/public/123.png" alt="" />
+                    <img className={styles.text1} src="/public/123.png" alt=""/>
                 </div>
                 <div className={styles.rightDesc}>
-                    <img className={styles.text21} src="/public/подпись2.png" alt="" />
-                    <img className={styles.text22} src="/public/123.png" alt="" />
-                    <img className={styles.text23} src="/public/подпись.png" alt="" />
+                    <img className={styles.text21} src="/public/подпись2.png" alt=""/>
+                    <img className={styles.text22} src="/public/123.png" alt=""/>
+                    <img className={styles.text23} src="/public/подпись.png" alt=""/>
                 </div>
                 <img className={styles.horseRider} src="/public/Конь.png" alt=''/>
                 <img className={styles.imgKutuz} src="/public/1122.png" alt=''/>
@@ -52,6 +52,35 @@ const Content = () => {
                     <img className={styles.imgDescMid2} src="/public/Подпись15.png" alt=""/>
                 </div>
                 <img className={styles.imgHorse2} src="/public/horse2.png" alt=""/>
+                <img className={styles.imgWar} src="/public/333.png" alt=""/>
+                <img className={styles.imgDeath} src="/public/222.png" alt=""/>
+                <div className={styles.descBottom1}>
+                    <img className={styles.imgDescMid1} src="/public/Подпись3.png" alt=""/>
+                </div>
+                <div className={styles.descBottom2}>
+                    <img className={styles.imgDescMid2} src="/public/Подпись4.png" alt=""/>
+                </div>
+                {/*<div className={styles.descBottom3}>*/}
+                {/*    <img className={styles.imgDescMid2} src="/public/Подпись15.png" alt=""/>*/}
+                {/*</div>*/}
+                <div className={styles.descBottom4}>
+                    <img className={styles.imgDescMid4} src="/public/Подпись9.png" alt=""/>
+                </div>
+                <div className={styles.descBottom5}>
+                    <img className={styles.imgDescMid5} src="/public/Подпись10.png" alt=""/>
+                </div>
+                <div className={styles.descBottom6}>
+                    <img className={styles.imgDescMid6} src="/public/Подпись11.png" alt=""/>
+                </div>
+                <div className={styles.descBottom7}>
+                    <img className={styles.imgDescMid7} src="/public/Подпись12.png" alt=""/>
+                </div>
+                <div className={styles.descBottom8}>
+                    <img className={styles.imgDescMid8} src="/public/Подпись13.png" alt=""/>
+                </div>
+                <div className={styles.descBottom9}>
+                    <img className={styles.imgDescMid9} src="/public/Подпись14.png" alt=""/>
+                </div>
             </div>
         </div>)
 }
